@@ -17,7 +17,7 @@ public class AssertionsDemo {
         // oder Parameter die für jeden Test nötig sind
 
         a = 1; // a ist bei jedem Durchlauf 1
-        s = "Hallo Welt"; // s ist bei jedem Test "Hallo Welt"
+        s = "Hallo Welt"; // s ist bei jedem Test "Hallo Welt" test
 
     }
 
