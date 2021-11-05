@@ -1,11 +1,16 @@
-/*
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
 public class RectangleTest {
 
     Rectangle rectangle;
 
     @BeforeEach
     void setUp() {
-        rectangle = new Rectangle(2, 3);
+        rectangle = new Rectangle(2.0, 3.0);
     }
 
     @Test
@@ -34,4 +39,3 @@ public class RectangleTest {
                   () -> assertEquals(38, new Rectangle(9, 10).calculateScope()));
     }
 }
-*/
